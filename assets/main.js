@@ -1,6 +1,6 @@
 const swiper = new Swiper('.swiper', {
     autoplay: {
-        delay: 3000,
+        delay: 6000,
         disableOnInteraction: false,
     },
     direction: 'horizontal',
