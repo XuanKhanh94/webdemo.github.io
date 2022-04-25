@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./assets/grid.css " />
+  <link rel="stylesheet" href="./assets/root.css" />
+  <link rel="stylesheet" href="./assets/main.css" />
+  <link rel="stylesheet" href="./assets/reponsive.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="grid header_nav_bar">
+      <div class="grid wide header_nav_content">
+        <div class="wrap_logo">
+          <a href="/" class="link_logo"><img src="./assets/img/logo.png" class="img_logo" /></a>
+        </div>
+        <!-- button menu -->
+        <div class="menu_mobile_icon">
+          <div class="wrap_logo_mobile">
+            <a href="/" class="link_logo"><img src="./assets/img/logo.png" class="img_logo" /></a>
+          </div>
+          
+          <label for="nav-mobile-input" class="btn-menu-mobile">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+        </div>
+
+        <input type="checkbox" name="" id="nav-mobile-input" class="nav_input" />
+
+        <label for="nav-mobile-input" class="nav-overlay"></label>
+        <!-- menu bar desktop -->
+        <div class="wrap_menu_bar_desktop">
+          <ul class="menu_content_list">
+            <li class="menu_item">
+              <a href="/" class="menu_link">Về chúng tôi</a>
+            </li>
+            <li class="menu_item dropdown">
+              <a href="/" class="menu_link">Dịch vụ Nhân sự</a>
+              <ul class="submenu">
+                <li><a class="link-submenu" href="">Sản phẩm và dịch vụ nhân sự</a></li>
+                <li><a class="link-submenu" href="">Cung ứng nhân sự cho doanh nghiệp</a></li>
+              </ul>
+            </li>
+            <li class="menu_item">
+              <a href="/" class="menu_link">Dịch vụ cho vay</a>
+            </li>
+            <li class="menu_item dropdown">
+              <a href="/" class="menu_link">Dịch vụ thu hồi nợ</a>
+            </li>
+            <li class="menu_item dropdown">
+              <a href="/" class="menu_link">Tin tức</a>
+              <ul class="submenu">
+                <li><a class="link-submenu" href="">Tin tức ngành nhân sự </a></li>
+                <li><a class="link-submenu" href="">Tin tức doanh nghiệp</a></li>
+              </ul>
+            </li>
+            <li class="menu_item">
+              <a href="/" class="menu_link">Tuyển dụng</a>
+            </li>
+            <li class="menu_item">
+              <a href="/" class="menu_link">Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+        <!-- menu mobile -->
+        <div class="wrap_menu_bar_mobile">
+          <label for="nav-mobile-input" class="nav_mobile_close">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+          <ul class="menu_content_list_mobile">
+            <li class="menu_item_mobile">
+              <a href="/" class="menu_link_mobile">Về chúng tôi</a>
+            </li>
+            <li class="menu_item_mobile dropdown">
+              <a href="/" class="menu_link_mobile">Dịch vụ Nhân sự</a>
+            </li>
+            <li class="menu_item_mobile">
+              <a href="/" class="menu_link_mobile">Dịch vụ cho vay</a>
+            </li>
+            <li class="menu_item_mobile dropdown">
+              <a href="/" class="menu_link_mobile">Dịch vụ thu hồi nợ</a>
+            </li>
+            <li class="menu_item_mobile dropdown">
+              <a href="/" class="menu_link_mobile">Tin tức</a>
+            </li>
+            <li class="menu_item_mobile">
+              <a href="/" class="menu_link_mobile">Tuyển dụng</a>
+            </li>
+            <li class="menu_item_mobile">
+              <a href="/" class="menu_link_mobile">Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="grid slider_panel">
+      <div class="slide-img">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href=""><img src="./assets/img/banner1.jpg" alt="" /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href=""><img src="./assets/img/banner2.jpg" alt="" /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href=""><img src="./assets/img/banner3.jpg" alt="" /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href=""><img src="./assets/img/banner4.jpg" alt="" /></a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid service-about">
+      <div class="grid wide row container-services-about">
+        <h2 class="col l-12 title-container">DỊCH VỤ CỦA CHÚNG TÔI</h2>
+        <div class="col l-4 m-4 container-services">
+          <h2 class="title-services"><a href="">Hỗ trợ vay tiêu dùng</a></h2>
+          <div class="list-content-services">
+            <img src="./assets/img/vay.jpg" class="img-services" />
+            <p class="content-services-loan">
+              Là đối tác tài chính của TPBank, MCredit, Lotte, OCB, Mirae Asset, để hỗ trợ vay cho khách hàng có nhu
+              cầu.
+            </p>
+          </div>
+          <p class="content-link"><a href="">Xem chi tiết</a></p>
+        </div>
+
+        <div class="col l-4 m-4 container-services">
+          <h2 class="title-services"><a href="">CUNG ỨNG NHÂN SỰ</a></h2>
+          <div class="list-content-services">
+            <img src="./assets/img/tuyendung.jpg" class="img-services" />
+            <p class="content-services-loan">
+              Chuyên cung ứng nhân sự cho các doanh nghiệp trong vào ngoài nước với tiêu chí khách hàng là thượng đế.
+            </p>
+          </div>
+          <p class="content-link"><a href="">Xem chi tiết</a></p>
+        </div>
+        <div class="col l-4 m-4 container-services">
+          <h2 class="title-services"><a href=""> Dịch Vụ Thu Hồi Nợ</a></h2>
+          <div class="list-content-services">
+            <img src="./assets/img/thuhoino.webp" class="img-services" />
+            <p class="content-services-loan">
+              Là đối tác thu hồi nợ chính của các tổ chức tài chính như SHB, ACS, ATM Online, ShinhanBank.
+            </p>
+          </div>
+          <p class="content-link"><a href="">Xem chi tiết</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid wide session_about_us_content">
+      <div class="row about_us_content">
+        <div class="col l-6 m-6 c-12 content_left_about" data-aos="fade-right">
+          <img src="./assets/img/hoatdong.jpeg" class="img_left_about" />
+        </div>
+        <div class="col l-6 m-6 c-12 content_right_about" data-aos="fade-left">
+          <h2 class="header_right_about">VỀ CHÚNG TÔI</h2>
+          <p class="description">
+            <strong>Công ty Cổ phần Tập đoàn Vietstar ( VIETSTAR GROUP JOINT STOCK COMPANY)</strong>
+            là một trong những công ty uy tín hàng đầu Việt Nam trong lĩnh vực tư vấn, cung ứng, đào tạo nhân sự. HRDC
+            mong muốn trở thành đơn vị tư vấn và cung cấp giải pháp tốt nhất cho ngành nhân sự Việt Nam. Phát triển
+            bền vững song hành cùng với sự phát triển của các đối tác và khách hàng. Mang lại lợi ích cho doanh nghiệp
+            và cho người lao động. Chúng tôi tìm kiếm sự hài lòng của khách hàng bằng cách lắng nghe, thấu hiểu nhu
+            cầu của họ. Từ đó cung cấp cho họ những giải pháp tối ưu nhất để thực hiện khát vọng phục hồi, phát triển
+            nguồn nhân lực.
+          </p>
+          <a href="/" class="view_more_about"> TÌM HIỂU THÊM</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid session_company_info_news_content">
+      <div class="grid wrap_company_info_news_content">
+        <div class="grid wide row company_info_news_content">
+          <div class="col l-12 wrap_header_company_info_news">
+            <div>
+              <div class="row">
+                <div class="col l-12 m-0 c-0 services-content"></div>
+                <div class="col l-6 m-6 c-12">
+                  <div class="item-snews">
+                    <h3 class="title-item-snews">
+                      <a href="" class="link-news">Tin tức nhân sự</a>
+                    </h3>
+                    <div class="row-content-snews">
+                      <img src="./assets/img/news.jpg" class="img-snew" />
+                      <div class="content-snew">
+                        <h3 class="title-snews">
+                          <a href="">Những lưu ý giúp tối ưu hóa quá trình cung ứng nhân lực</a>
+                        </h3>
+                        <p class="content-snew">
+                          Công ty Cổ phần Tập đoàn Vietstar ( VIETSTAR GROUP JOINT STOCK COMPANY) tên viết tắt là
+                          Vietstar Group được thành lập ngày 01 tháng 08 năm 2018. Chúng tôi
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="row-content-snews">
+                      <img src="./assets/img/news.jpg" class="img-snew" />
+                      <div class="content-snew">
+                        <h3 class="title-snews">
+                          <a href="">Những lưu ý giúp tối ưu hóa quá trình cung ứng nhân lực</a>
+                        </h3>
+                        <p class="content-snew">
+                          Công ty Cổ phần Tập đoàn Vietstar ( VIETSTAR GROUP JOINT STOCK COMPANY) tên viết tắt là
+                          Vietstar Group được thành lập ngày 01 tháng 08 năm 2018. Chúng tôi
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row-content-snews">
+                      <img src="./assets/img/news.jpg" class="img-snew" />
+                      <div class="content-snew">
+                        <h3 class="title-snews">
+                          <a href="">Những lưu ý giúp tối ưu hóa quá trình cung ứng nhân lực</a>
+                        </h3>
+                        <p class="content-snew">
+                          Công ty Cổ phần Tập đoàn Vietstar ( VIETSTAR GROUP JOINT STOCK COMPANY) tên viết tắt là
+                          Vietstar Group được thành lập ngày 01 tháng 08 năm 2018. Chúng tôi Công ty Cổ phần Tập đoàn
+                          Vietstar ( VIETSTAR GROUP JOINT STOCK COMPANY) tên viết tắt là Vietstar Group được thành lập
+                          ngày 01 tháng 08 năm 2018. Chúng tôi
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row-content-view-more">
+                      <a href="/" class="view-more">Xem thêm</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-6 m-6 c-12">
+                  <div class="item-snews finance">
+                    <h3 class="title-item-snews">
+                      <a href="" class="link-news">Tin tức tài chính</a>
+                    </h3>
+                    <div class="row-content-snews">
+                      <img src="./assets/img/news.jpg" class="img-snew" />
+                      <div class="content-snew">
+                        <h3 class="title-snews"><a href="">NHỮNG LỢI ÍCH KHI VAY TÍN CHẤP</a></h3>
+                        <p class="content-snew">
+                          Công ty Cổ phần Tập đoàn Vietstar ( VIETSTAR GROUP JOINT STOCK COMPANY) tên viết tắt là
+                          Vietstar Group được thành lập ngày 01 tháng 08 năm 2018. Chúng tôi
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row-content-snews">
+                      <img src="./assets/img/news.jpg" class="img-snew" />
+                      <div class="content-snew">
+                        <h3 class="title-snews"><a href="">NHỮNG LỢI ÍCH KHI VAY TÍN CHẤP</a></h3>
+                        <p class="content-snew">
+                          Công ty Cổ phần Tập đoàn Vietstar ( VIETSTAR GROUP JOINT STOCK COMPANY) tên viết tắt là
+                          Vietstar Group được thành lập ngày 01 tháng 08 năm 2018. Chúng tôi Công ty Cổ phần Tập đoàn
+                          Vietstar ( VIETSTAR GROUP JOINT STOCK COMPANY) tên viết tắt là Vietstar Group được thành lập
+                          ngày 01 tháng 08 năm 2018. Chúng tôi
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row-content-snews">
+                      <img src="./assets/img/news.jpg" class="img-snew" />
+                      <div class="content-snew">
+                        <h3 class="title-snews"><a href="">NHỮNG LỢI ÍCH KHI VAY TÍN CHẤP</a></h3>
+                        <p class="content-snew">
+                          Công ty Cổ phần Tập đoàn Vietstar ( VIETSTAR GROUP JOINT STOCK COMPANY) tên viết tắt là
+                          Vietstar Group được thành lập ngày 01 tháng 08 năm 2018. Chúng tôi Công ty Cổ phần Tập đoàn
+                          Vietstar ( VIETSTAR GROUP JOINT STOCK COMPANY) tên viết tắt là Vietstar Group được thành lập
+                          ngày 01 tháng 08 năm 2018. Chúng tôi
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row-content-view-more">
+                      <a href="/" class="view-more">Xem thêm</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid wide session_about_us_content">
+      <div class="row about_us_content">
+        <div class="col l-6 m-6 c-12 content_right_about" data-aos="flip-left">
+          <p class="header_right_about">NỘI BỘ</p>
+          <p class="description">
+            <strong>Công ty Cổ phần Tập đoàn Vietstar ( VIETSTAR GROUP JOINT STOCK COMPANY)</strong>
+            là một trong những công ty uy tín hàng đầu Việt Nam trong lĩnh vực tư vấn, cung ứng, đào tạo nhân sự. HRDC
+            mong muốn trở thành đơn vị tư vấn và cung cấp giải pháp tốt nhất cho ngành nhân sự Việt Nam. Phát triển
+            bền vững song hành cùng với sự phát triển của các đối tác và khách hàng. Mang lại lợi ích cho doanh nghiệp
+            và cho người lao động. Chúng tôi tìm kiếm sự hài lòng của khách hàng bằng cách lắng nghe, thấu hiểu nhu
+            cầu của họ. Từ đó cung cấp cho họ những giải pháp tối ưu nhất để thực hiện khát vọng phục hồi, phát triển
+            nguồn nhân lực.
+          </p>
+        </div>
+        <div class="col l-6 m-6 c-12 content_left_about" data-aos="fade-right">
+          <img src="./assets/img/post-4.jpg" class="img_left_about" />
+        </div>
+      </div>
+    </div>
+    <div class="grid container-info-partner">
+      <div class="grid wide row">
+        <div class="wrap-title-info-partner">
+          <h2 class="title-partner">ĐỐI TÁC CỦA CHÚNG TÔI</h2>
+        </div>
+        <div class="col l-12 m-12 list-partner">
+          <div class="col l-2 m-2 info-partner-content-container">
+            <div class="info-partner-content">
+              <div class="icon-partner">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+              <div class="content-partner">
+                <p>
+                  Khi hợp tác với Vietstar chúng tôi rất yên tâm và rât hài lòng,Ứng viên đến phỏng vấn mỗi ngày và
+                  trình độ chuyên môn của ứng viên rất cao.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col l-2 m-2 info-partner-content-container">
+            <div class="info-partner-content">
+              <div class="icon-partner">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+              <div class="content-partner">
+                <p>Dịch vụ VIETSTAR rất tốt. Mong muốn được hợp tác lâu dài với VIETSTAR</p>
+              </div>
+            </div>
+          </div>
+          <div class="col l-2 m-2 info-partner-content-container">
+            <div class="info-partner-content">
+              <div class="icon-partner">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+              <div class="content-partner">
+                <p>
+                  Về dịch vụ Headhunter của Vietstar chúng tôi rất hài lòng khi sử dụng dịch vụ của công ty. Quy trình
+                  làm việc rõ ràng, tiến độ hoàn thành công việc nhanh chóng.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col l-2 m-2 info-partner-content-container">
+            <div class="info-partner-content">
+              <div class="icon-partner">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+              <div class="content-partner">
+                <p>
+                  Đối Với chúng tôi – Vietstar chính là đối tác quan trọng trong việc hỗ trợ tuyển dụng. Số lượng ứng
+                  viên tham gia ứng tuyển nhiều và tỷ lệ đậu phỏng vấn cao cho thấy được sự chuyên nghiệp và tận tâm
+                  trong công việc của quý công ty. Chúng tôi xin cảm ơn.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col l-2 m-2 info-partner-content-container">
+            <div class="info-partner-content">
+              <div class="icon-partner">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+              <div class="content-partner">
+                <p>
+                  Quy trình làm việc rõ ràng, tiến độ hoàn thành công việc nhanh chóng, CV ứng viên chất lượng từ vị
+                  trí Senior cho tới vị trí Mass. Cảm ơn Vietstar đã hỗ trợ chúng tôi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col l-2 m-2 info-partner-content-container">
+            <div class="info-partner-content">
+              <div class="icon-partner">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+              <div class="content-partner">
+                <p>
+                  Cảm ơn Vietstar đã hỗ trợ chúng tôi trong thời gian qua và chúng tối rất lấy làm vinh hạnh cho sự
+                  hợp tác này.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="grid wide row container-form-registry">
+        <div class="col container-form">
+          <div class="col l-6 img-form-registry">
+            <img src="./assets/img/supporter-min-600x600.png" alt="" />
+          </div>
+          <div class="col l-6 content-registry">
+            <h2>ĐĂNG KÝ TƯ VẤN</h2>
+            <div class="list-form-registry">
+              <div class="name-input">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Họ và tên *" />
+              </div>
+              <div class="phone-number-input">
+                <i class="fa-solid fa-phone-flip"></i>
+                <input type="text" placeholder="Điện thoại *" />
+              </div>
+              <div class="email-input">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" placeholder="Email *" />
+              </div>
+              <div class="content-input">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <input type="text" placeholder="Họ và tên *" />
+              </div>
+              <div><a href="" class="btn-registry">Đăng Ký</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="grid wide row">
+        <div class="col l-12 m-12 footer-container">
+          <div class="col l-6 m-6 c-12">
+            <div class="footer-address">
+              <h3 class="item-footer-title">CÔNG TY CỔ PHẦN TẬP ĐOÀN VIETSTAR</h3>
+              <div class="item-footer-address">
+                <div class="footer-icon"><i class="fa fa-home address"></i></div>
+                <div>
+                  <p class="item-footer-content">
+                    VP HCM: Tầng 03, Tòa nhà Long Mã Building, 602-602A Cộng Hòa, Phường 13,Quận Tân Bình,TP.HCM
+                  </p>
+                </div>
+              </div>
+              <div class="item-footer-address">
+                <div class="footer-icon"><i class="fa fa-home address"></i></div>
+                <div>
+                  <p class="item-footer-content">
+                    VP Hà Nội: Khu đô thị Tây Nam Linh Đàm, Hoàng Liệt, Hoàng Mai, Hà Nội
+                  </p>
+                </div>
+              </div>
+              <div class="item-footer-address">
+                <div class="footer-icon"><i class="fa fa-phone address"></i></div>
+                <div>
+                  <p class="item-footer-content"><a href="tel:02871000555">02871000555</a></p>
+                </div>
+              </div>
+              <div class="item-footer-address">
+                <div class="footer-icon"><i class="fa fa-envelope address"></i></div>
+                <div>
+                  <p class="item-footer-content">
+                    <a href="mailto:info@vietstargroup.vn">info@vietstargroup.vn</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col l-3 m-3 c-12 footer-services">
+            <div class="title-footer-services">
+              <h3>DỊCH VỤ</h3>
+            </div>
+            <div class="list-footer-services">
+              <ul class="item-list-services">
+                <li><a href="">Cung ứng nhân sự cho doanh nghiệp</a></li>
+                <li><a href="">Hỗ trợ vay tiêu dùng</a></li>
+                <li><a href="">Thu hồi nợ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col l-3 m-3 c-12 footer-about">
+            <div class="title-footer-about">
+              <h3>VỀ CHÚNG TÔI</h3>
+            </div>
+            <div class="list-footer-about">
+              <ul class="item-list-about">
+                <li><a href="">Về chúng tôi</a></li>
+                <li><a href="">Hoạt động công ty</a></li>
+                <li><a href="">Tuyển dụng</a></li>
+                <li><a href="">Liên hệ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-btn">
+        <button class="btn-zalo">
+          <a href="http://zalo.me/02871000555" target="blank">Chat Zalo</a>
+        </button>
+        <button class="btn-facebook">
+          <a href="https://www.facebook.com/messages/t/1813998648892920" target="blank">Chat Facebook</a>
+        </button>
+        <button class="btn-hotline">
+          <a href="tel:02871000555" target="blank">Hotline:02871000555</a>
+        </button>
+      </div>
+      <div class="line-footer"></div>
+      <div class="copy-right">
+        <p>Copyright Vietstargroup © 2020 | Vietstargroup.vn</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/7d9cffe583.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./assets/main.js"></script>
+</body>
+
+</html>
